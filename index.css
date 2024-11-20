@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    /*Find out the meaning of the 'vh'*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
+#violet {
+    background-color: violet;
+}
+#pink {
+    background-color: pink;
+}
+#orange {
+    background-color: orange;
+}
+#indigo {
+    background-color: indigo;
+}
+#purple {
+    background-color: purple;
+}
+#brown {
+    background-color: brown;
+}
+
